@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -245,6 +246,29 @@ footer{text-align:center;color:#94a3b8;font-size:.8em;margin-top:40px;padding-to
 
 <div class="sec-header" id="concepto"><span class="num">1</span> Concepto central (lo esencial — 20/80)</div>
 <div class="card">
+
+  <div class="concepto-box">
+    <h4>⓪ ¿Cómo se numeran los carbonos?</h4>
+    <p><b>Definición simple:</b> los carbonos se numeran del <b>1 al 6</b> (en hexosas) siguiendo la cadena principal,
+    <b>siempre empezando por el extremo más cercano al grupo carbonilo</b> (el –CHO en aldosas, o el extremo más cercano al C=O en cetosas).</p>
+    <div class="analogia">🏢 <b>Analogía:</b> es como numerar los pisos de un edificio empezando siempre desde la puerta principal — no importa cómo esté dibujada la molécula (hacia arriba, hacia abajo, rotada), la numeración siempre arranca desde el mismo extremo químico: el carbonilo.</div>
+    <div class="regla">📏 <b>Reglas para numerar en cadena abierta (Fischer):</b>
+      <ol>
+        <li>En una <b>aldosa</b>: C1 es el carbono del –CHO (arriba de la proyección de Fischer). Bajando la cadena, sigue C2, C3, C4, C5, C6 (el último suele ser –CH₂OH).</li>
+        <li>En una <b>cetosa</b>: el carbonilo (C=O) NO está en el extremo, sino en <b>C2</b>. Aun así, C1 sigue siendo el carbono más cercano al carbonilo en la parte superior (–CH₂OH en C1), y se numera igual hacia abajo: C1, C2 (carbonilo), C3, C4, C5, C6.</li>
+        <li>Regla de oro: <b>el número más bajo posible siempre va al carbono más cercano al grupo funcional principal</b> (el carbonilo). Nunca se numera empezando por el –CH₂OH del otro extremo.</li>
+      </ol>
+    </div>
+    <div class="regla">📏 <b>¿Y en el anillo (Haworth)? La numeración NO cambia, solo se "dobla":</b>
+      <ol>
+        <li>Cuando la cadena abierta se cicla, los mismos números de carbono se conservan — no se vuelven a numerar desde cero.</li>
+        <li>El carbono que antes era el carbonilo (C1 en aldosas, C2 en cetosas) se convierte en el <b>carbono anomérico</b>, y normalmente se dibuja a la <b>derecha</b> del oxígeno del anillo en la proyección de Haworth estándar.</li>
+        <li>Desde ahí, se sigue numerando en sentido <b>horario</b> alrededor del anillo visto desde arriba: C2, C3, C4, C5 (el que conecta al oxígeno del anillo), y el carbono que queda <b>fuera</b> del anillo, colgando hacia arriba (el –CH₂OH), es <b>C6</b> — no forma parte del hexágono.</li>
+        <li>En la fructosa (anillo de 5 miembros): el carbono anomérico es <b>C2</b> (no C1), y el anillo lo forman C2-C3-C4-C5 más el oxígeno; tanto C1 como C6 quedan como –CH₂OH colgando fuera del anillo, uno a cada lado.</li>
+      </ol>
+    </div>
+    <div class="crisis-warn">⚠️ <b>Error frecuente:</b> contar el oxígeno del anillo como si fuera un carbono, o numerar el –CH₂OH exterior como si fuera parte del hexágono. El oxígeno del anillo <u>nunca</u> recibe número, y el –CH₂OH que cuelga (C6 en piranosas) está <u>fuera</u> del anillo, no es uno de los 5 carbonos que sí forman el hexágono.</div>
+  </div>
 
   <div class="concepto-box">
     <h4>① ¿Qué hace que algo sea una "-osa"?</h4>
@@ -1335,6 +1359,7 @@ Q 199.1 234.5, 199.1 236.4
 <div class="sec-header" id="tips"><span class="num">2</span> Tips y estrategias</div>
 <div class="card">
   <ul class="tips-list">
+    <li><span class="tip-icon">✔</span> <b>Trucazo para numerar rápido en Haworth:</b> busca el carbono anomérico (el que tiene dos oxígenos, unido al O del anillo); ese es C1 (o C2 en fructosa). Desde ahí, cuenta en sentido horario alrededor del anillo — el –CH₂OH que cuelga hacia afuera nunca lleva número de dentro del hexágono.</li>
     <li><span class="tip-icon">✔</span> <b>Trucazo del –CH₂OH:</b> en toda hexopiranosa D, el –CH₂OH (C6) sale <u>hacia arriba</u> del anillo. Úsalo como tu "norte" para comparar hacia dónde apunta el –OH anomérico (mismo lado = β, lado opuesto = α).</li>
     <li><span class="tip-icon">✔</span> <b>Glucosa vs. galactosa:</b> son idénticas en TODO excepto la orientación del –OH en el <b>C4</b>. Revisa solo ese carbono para diferenciarlas — es el error más común en examen.</li>
     <li><span class="tip-icon">✔</span> <b>Glucosa vs. fructosa:</b> fructosa es una <i>cetosa</i> (carbonilo en C2) y forma un anillo de <b>5 miembros</b> (furanosa), no de 6. Si ves un pentágono con dos –CH₂OH colgando, es fructosa.</li>
@@ -9410,6 +9435,7 @@ Q 179.0 96.7, 179.0 98.6
     <tr><td>Nombrar el enlace glicosídico con el carbono equivocado</td><td>Siempre identifica primero cuál C1 "dona" el enlace y a qué carbono del otro anillo se conecta.</td></tr>
     <tr><td>Asignar la forma α/β del disacárido usando el carbono anomérico que ya se usó en el enlace</td><td>La forma global depende del carbono anomérico <b>libre</b>, no del que participó en el enlace.</td></tr>
     <tr><td>Pensar que todo enlace entre azúcares es α(1→4)</td><td>Verifica siempre los números de carbono reales del puente (puede ser 1→6, 1→2, etc.).</td></tr>
+    <tr><td>Numerar el –CH₂OH exterior como parte del hexágono, o contar el oxígeno del anillo como carbono</td><td>El O del anillo nunca lleva número; el –CH₂OH que cuelga (C6) está fuera del hexágono de 5 carbonos + O.</td></tr>
   </table>
 </div>
 
